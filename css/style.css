@@ -330,15 +330,11 @@ button:active, button:focus, input:active, input:focus {
     line-height: 28px;
     color: #000000;
 }
-.news__row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 .news-item {
     flex-basis: 23%;
     margin-bottom: 20px;
     padding: 30px;
+    min-height: 170px;
     background: #fff;
     color: #000000;
     border-radius: 5px;
@@ -525,7 +521,7 @@ button:active, button:focus, input:active, input:focus {
         margin-bottom: 30px;
     }
     .news-item {
-        max-width: 90%;
+        max-width: 85%;
     }
     .btn-next {
         display: block;
@@ -534,7 +530,7 @@ button:active, button:focus, input:active, input:focus {
 
 @media (max-width: 576px) {
     .container {
-        width: 95%;
+        width: 80%;
     }
     .film-title {
         font-size: 20px;
